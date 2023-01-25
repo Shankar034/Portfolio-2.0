@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion"
@@ -7,7 +8,7 @@ type Props = {}
 export default function Header({}: Props) {
   return (
     <header className='sticky p-5 top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
-        <div 
+        <motion.div 
               initial={{
                 x: -500,
                 opacity:0,
@@ -25,8 +26,8 @@ export default function Header({}: Props) {
             <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
             <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
             <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
-        </div>
-        <div 
+        </motion.div>
+        <motion.div 
         initial ={{
           x:500,
           opacity:0,
@@ -47,7 +48,7 @@ export default function Header({}: Props) {
             bgColor='transparent'
             />
             <p className='uppercase  md:inline-flex text-gray-400'>Get in Touch</p>
-        </div>
+        </motion.div>
 
     </header>
   );
