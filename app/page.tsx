@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     
-    <div className='bg-[#c0c0c0] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
       
 
         {/*  Header */}
