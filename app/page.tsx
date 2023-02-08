@@ -37,6 +37,9 @@ export default function Home() {
         </section>
 
         {/* Projects */}
+        <section>
+          
+        </section>
 
         {/* Contact Me */}
     
