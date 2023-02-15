@@ -15,7 +15,7 @@ function WorkExperience({}: Props) {
         <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl flex '>
             Experience
         </h3>
-        <div className='pt-20 w-full flex spaxe-x-5 overflow-x-scroll p-10 snap-x snap-mandatory '>
+        <div className='pt-20 w-full flex spaxe-x-5 overflow-x-scroll p-10 snap-x snap-mandatory  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
             {/* ExperienceCard */}
             <ExperienceCard/>
             {/* ExperienceCard */}

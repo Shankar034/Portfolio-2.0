@@ -8,11 +8,12 @@ import WorkExperience from '@/components/WorkExperience'
 import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
+import Link from "next/link"
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     
-    <div className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0'>
+    <div className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
       
 
         {/*  Header */}
@@ -49,6 +50,16 @@ export default function Home() {
         <section id="contact" className='snap-start'>
           <ContactMe/>
         </section>
+
+        <Link href="#hero">
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex items-center justify-center
+          '>
+           <img 
+          className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+          src="https://thumbs.dreamstime.com/z/programmer-cartoon-character-vector-illustration-super-professional-project-manager-funny-person-yoga-pose-97265997.jpg" alt="" /></div>
+        </footer>
+        </Link>
     
     </div>
   
