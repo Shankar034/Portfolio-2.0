@@ -10,12 +10,6 @@ export default defineType({
       title: 'JobTitle',
       type: 'string',
     }),
-    defineField({
-      name: 'jobTitle',
-      title: 'JobTitle',
-      type: 'string',
-      
-    }),
    
     defineField({
       name: 'companyImage',
