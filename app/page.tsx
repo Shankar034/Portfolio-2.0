@@ -37,7 +37,7 @@ const Home = ({pageInfo, experiences, projects, socials, skills}: Props)=>{
       
 
         {/*  Header */}
-        <Header/>
+        <Header socials={socials}/>
 
         
         {/* Hero */}
