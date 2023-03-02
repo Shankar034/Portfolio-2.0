@@ -64,7 +64,7 @@ function ExperienceCard({experience}: Props) {
             : new Date(experience.dateEnded).toDateString()
             }
           </p>
-          <ul className='list-disc space-y-4 ml-5 text-lg h-96 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#f7ab0a]/80'>
+          <ul className='list-disc space-y-4 ml-5 text-lg h-96 overflow-y-scroll pr-5 scrollbar-thin scrollbar-track-black scrollbar-thumb-[#f7ab0a]/80'>
             {/* <li>Summary points</li>
             <li>Summary points</li>
             <li>Summary points</li> */}
