@@ -28,7 +28,7 @@ export default function Header({ socials}: Props) {
               }}
         className='flex  flex-row items-center'>
             {/* Social Icons */}
-            {socials.map((social) =>{
+            {socials?.map((social) =>(
               
 
 
@@ -38,14 +38,14 @@ export default function Header({ socials}: Props) {
             key={social._id}
             url={social.url}
             fgColor='gray' bgColor='transparent'/>
-            })}
+            ))}
+
+            {/* <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
 
             <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
 
             <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
-
-            <SocialIcon url="https://youtube.com/@shankarbhandari9914" fgColor='gray' bgColor='transparent'/>
-            
+             */}
         </motion.div>
         <Link href="#contact">
         <motion.div 
